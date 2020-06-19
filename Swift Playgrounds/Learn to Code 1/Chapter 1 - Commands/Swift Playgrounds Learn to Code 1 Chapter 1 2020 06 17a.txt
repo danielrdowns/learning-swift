@@ -1,0 +1,106 @@
+Swift Playgrounds
+Learn to Code 1
+2020 06 17a
+
+Chapter 1 - Commands
+
+Introduction:
+- Command: a directive to a computer program to perform a specific task
+- Computer programs are like recipes in cooking - they are needed for getting things done and order of operations matters
+Swift syntax: commands have no spaces between words + commands end in parentheses
+
+Module 1 - Issuing Commands
+
+// Environment rules: 
+// Byte moves in single space increments
+// Stairs do not count as spaces
+// System has safeguards, preventing Byte from falling off cliffs
+// Byte being commanded to walk past a cliff = does not proceed
+
+moveForward()
+moveForward()
+moveForward()
+collectGem()
+
+Module 2 - Adding a New Command
+
+// Environment rules:
+// Walls are an additional safeguard
+// Walls prevent Byte's forward moment w/o breaking the code
+
+moveForward()
+moveforward()
+turnLeft()
+moveForward()
+moveForward()
+collectGem()
+
+Module 3 - Toggling a Switch
+
+// Environment rules:
+// Water acts the same as cliffs
+
+moveForward()
+moveForward()
+turnLeft()
+moveForward()
+collectGem()
+moveForward()
+turnLeft()
+moveForward()
+moveForward()
+toggleSwitch()
+
+Module 4 - Portal Practice
+
+moveFOrward()
+moveForward()
+moveForward()
+turnLeft()
+moveForward()
+turnLeft()
+moveForward()
+moveForward()
+toggleSwitch()
+moveForward()
+moveForward()
+turnLeft()
+moveForward()
+moveForward()
+collectGem()
+
+Module 5 - Finding and Fixing Bugs
+
+moveForward()
+moveForward()
+turnLeft()
+moveForward()
+collectGem()
+moveForward()
+toggleSwitch() 
+
+Module 6 - Bug Squash Practice
+
+moveForward()
+turnLeft()
+moveForward()
+moveForward()
+toggleSwitch()
+moveForward()
+moveForward()
+moveForward()
+moveForward()
+collectGem()
+
+Module 7 - The Shortest Route
+
+moveForward()
+moveForward()
+moveForward()
+collectGem()
+moveForward()
+moveForward()
+moveForward()
+moveForward()
+toggleSwitch()
+
