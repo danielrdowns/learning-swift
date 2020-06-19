@@ -1,0 +1,201 @@
+Swift Playgrounds
+Learn to Code 1
+2020 06 19a
+
+Chapter 3 - For Loops
+
+Introduction:
+- For Loops are a control flow statement for specifying iteration, which allows code to be executed repeatedly
+- In Swift, "for X" is the loop syntax
+- In other languages, "do X" is the loop  syntax
+
+
+Module 1 - Using Loops
+
+// Goal is to create a simple loop module using the same repeated pattern for collecting gems
+
+For i in 1...5 {
+moveForward()
+moveForward()
+collectGem()
+moveForward()
+}
+
+
+Module 2 - Looping all the Sides
+
+//Goal is to use a loop to solve
+
+For i in 1...5 {
+moveForward()
+collectGem()
+moveForward()
+moveForward()
+moveForward()
+turnRight()
+}
+
+
+Module 3 - To the Edge and Back
+
+//Goal is to build loops to solve for a set pattern
+
+for i in 1...4 {
+moveForward()
+moveForward()
+toggleSwitch()
+turnLeft()
+turnLeft()
+moveForward()
+moveForward()
+turnLeft()
+}
+
+
+Module 4 - Loop Jumper
+
+//Another loop practice module
+
+For Loop1 in 1...5 {
+moveForward()
+turnLeft()
+moveForward()
+moveForward()
+collectGem()
+turnRight()
+}
+
+
+Module 5 - Branch Out
+
+// Goal is to use multiple commands, functions, loops to meet goal
+// Notably, this was easier to solve without loops than with loops
+
+func mf7() {
+moveForward()
+moveForward()
+moveForward()
+moveForward()
+moveForward()
+moveForward()
+moveForward()
+}
+
+func turnaround() {
+turnLeft()
+turnLeft()
+}
+
+func reposition() {
+turnRight()
+moveForward()
+moveForward()
+turnRight()
+}
+
+moveForward()
+moveForward()
+turnRight()
+mf7()
+toggleSwitch()
+turnaround()
+mf7()
+reposition()
+mf7()
+toggleSwitch()
+turnaround()
+mf7()
+reposition()
+mf7()
+toggleSwitch()
+
+
+Module 6 - Gem Farm
+
+// Goal is to use For Loops and functions to solve
+// Did this without loops because it was easier
+
+func gemfunction1() {
+turnRight()
+moveForward()
+collectGem()
+moveForward()
+collectGem()
+turnLeft()
+turnLeft()
+moveForward()
+moveForward()
+turnRight()
+}
+
+func switchfunction1() {
+turnRight()
+moveForward()
+toggleSwitch()
+moveForward()
+toggleSwitch()
+turnLeft()
+turnLeft()
+moveForward()
+moveForward()
+turnRight()
+}
+
+gemfunction1()
+moveForward()
+gemfunction1()
+moveForward()
+gemfunction1()
+turnLeft()
+turnLeft()
+switchfunction1()
+moveForward()
+switchfunction1()
+moveForward()
+switchfunction1()
+
+
+Module 7 - Four Stash Sweep
+
+// Goal is to use a combination of commands, functions, and for loops to solve
+// 16 gems in total in complex repeated pattern
+// Also sketched this one out on paper for clarity
+
+func gemfunction1() {
+moveForward()
+collectGem()
+moveForward()
+collectGem()
+turnLeft()
+turnLeft()
+moveForward()
+turnRight()
+moveForward()
+collectGem()
+turnLeft()
+turnLeft()
+moveForward()
+moveForward()
+collectGem()
+turnLeft()
+turnLeft()
+moveForward()
+turnLeft()
+turnLeft()
+turnLeft()
+}
+
+
+func portalfunction1() {
+turnRight()
+moveForward()
+moveForward()
+}
+
+
+for i in 1 ... 4 {
+gemfunction1()
+portalfunction1()
+}
+
+
