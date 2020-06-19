@@ -1,0 +1,203 @@
+Swift Playgrounds
+Learn to Code 1
+2020 06 18a
+
+Chapter 2 - Functions
+
+Introduction:
+- Functions are a sequence of program instrutions packaged together for a specifc task
+- "Functions are a set of commands for use."
+- Functions are also known as subroutines, methods (in OOP), subprograms
+- In Swift, to define a function: func tieMyShoe()
+- Always end with "()"
+- Function commands are always between curly braces
+
+
+Module 1 - Composing a New Behavior
+
+moveForward()
+moveForward()
+moveForward()
+turnLeft()
+turnLeft()
+turnLeft()
+// 3 left turns = 1 right turn
+moveForward()
+moveForward()
+moveForward()
+collectGem()
+
+
+Module 2 - Creating a New Function
+
+func turnRight() {
+turnLeft()
+turnLeft()
+turnLeft()
+}
+
+moveForward()
+turnLeft()
+moveForward()
+turnRight()
+moveForward()
+turnRight()
+moveForward()
+turnRight()
+moveForward()
+turnLeft()
+moveForward()
+toggleSwitch()
+
+
+Module 3 - Collect, Toggle, Repeat
+
+// Goal is to have multiple commands done via functions
+
+func combo() {
+moveForward()
+collectGem()
+moveForward()
+toggleSwitch()
+}
+
+combo()
+moveForward()
+turnLeft()
+combo()
+moveForward()
+moveForward()
+turnLeft()
+combo()
+moveForward()
+turnLeft()
+combo()
+
+
+Module 4 - Across the Board
+
+// Goal is making functions that adhere to the rules that can be used to solve problems that can be solved via repetition
+
+func bread() {
+moveForward()
+collectGem()
+moveForward()
+collectGem()
+}
+
+bread()
+turnRight()
+bread()
+turnRight()
+bread()
+turnRight()
+bread()
+turnRight()
+moveForward()
+turnRight()
+moveForward()
+collectGem()
+
+
+Module 5 - Nesting Patterns
+
+// Goal is to use decomposition to solve a problem by breaking it down into its discrete parts
+// Uses 2 functions that can be called for effective execution of the program
+
+func turnAround() {
+turnLeft()
+turnLeft()
+}
+
+func solveStair() {
+moveForward()
+collectGem()
+turnAround()
+moveForward()
+}
+
+solveStair()
+solveStair()
+turnRight()
+solveStair()
+solveStair()
+
+Module 6 - Slotted Stairways
+
+// Goal is to use decomposition across multiple functions to solve
+
+func collectGemTurnAround() {
+moveForward()
+moveForward()
+collectGem()
+turnLeft()
+turnLeft()
+moveForward()
+moveForward()
+}
+
+func solveRow() {
+collectGemTurnAround()
+}
+
+solveRow()
+turnLeft()
+moveForward()
+turnLeft()
+solveRow()
+turnLeft()
+moveForward()
+turnLeft()
+solveRow()
+
+solveRow()
+turnLeft()
+moveForward()
+turnLeft()
+solveRow()
+turnLeft()
+moveForard()
+turnLeft()
+solveRow()
+
+
+Module 7 - Treasure Hunt
+
+// Goal is to make your own functions to solve the puzzle
+// Puzzle has 6 switches to toggle, 4 arrayed in a set pattern, and 2 arrayed in a separate pattern
+
+func step1(){
+moveForward()
+moveForward()
+toggleSwitch()
+turnLeft()
+turnLeft()
+moveForward()
+moveForward()
+}
+
+func step2(){
+moveForward()
+moveForward()
+moveForward()
+moveForward()
+toggleSwitch()
+turnLeft()
+turnLeft()
+moveForward()
+moveForward()
+moveForward()
+moveForward()
+}
+
+step1()
+step1()
+turnLeft()
+step1()
+step1()
+step2()
+step2()
+
+
+
+
